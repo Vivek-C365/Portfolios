@@ -1,0 +1,36 @@
+.navbar-brand{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.navbar-nav{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;    
+    justify-content: flex-end;
+    
+}
+.nav-item{
+    margin-right: 40px;
+}
+.logo_img{
+    width: 17%;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#threeline{
+    border: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.nav-link.active{
+    color: #a3de83 !important;
+    border-bottom: 2px solid;
+  }

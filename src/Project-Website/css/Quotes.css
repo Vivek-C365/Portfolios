@@ -1,0 +1,82 @@
+
+  .card{
+    background-image: url(https://images.unsplash.com/photo-1622737133809-d95047b9e673?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2400);
+    padding: 7%;
+    background-position-x: center;
+
+  }
+  .card_body{
+    background-color: #00000075;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 11px;
+    font-family: monospace;
+
+  }
+  .icon{
+    color: white;
+    margin-bottom: 3rem;
+  }
+  .icon svg{
+    font-size: 10vh;
+  }
+  .text{
+    color: white;
+    font-size: 3vh;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  
+  }
+
+  @media only screen and (max-width: 425px) {
+    .text{
+        height: 40vh;
+        
+    }
+    .textdata{
+        font-size: 2.5vh !important;
+    }
+  }
+  
+  .textdata{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: fit-content;
+    font-size: 3.1vh;
+  }
+  .author{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    font-size: 2.8vh;
+  
+  }
+  .btn{
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+    border: none;
+  }
+  .clickbtn{
+    font-size: 3vh;
+    padding: 0 5%;
+    background-color: #00000052;
+    border: none;
+    color: white;
+    border-radius: 9%;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,95 @@
+:root{
+    --bs-darkblack:#0B0C10 ;
+    --bs-darkgray:#1F2833 ;
+    --bs-lightgray:#C5C6C7 ;
+    --bs-brightsky:#66FCF1 ;
+    --bs-darksky:#45A29E ;
+    --bs-bluesdark : #231c4e;
+    --bs-darkblue : #09011B;
+    --bs-trasparentblur : #09011bbd;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: #121212  !important;
+    border-bottom: 5px solid #45a29e;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.nav-link{
+    color: #5dd0cb !important;
+    font-weight: 500 !important;
+}
+.first_section{
+    background-color: var(--bs-lightgray) !important;
+}
+.Project_work {
+    background-color: var(--bs-darkblue) !important;
+}
+.heading_project h1{
+    color: lightgray;
+}
+.project_img{
+    background-color: var(--bs-border-color) !important;
+}
+.project_btnout{
+    background-color: var(--bs-trasparentblur) !important;
+}
+.project_items .project_btn button {
+    background-color: var(--bs-darksky) !important;
+    color: black !important;
+}
+.project_img_center{
+    background-position: center;
+}
+
+.project_img{
+    background-image: url('./Project1.png');
+}
+.project2{
+    background-image: url('./Project2.png') !important;
+
+}
+.project3{
+    background-image: url('./Project3.png') !important;
+}
+.project4{
+    background-image: url('./Project4.png') !important
+}
+
+.project5{
+    background-image: url('./Project5.png') !important
+}
+.project6{
+    background-image: url('./Project6.png') !important
+}
+.project7{
+    background-image: url('./Project7.png') !important
+}
+.project8{
+    background-image: url('./Project8.png') !important
+}
+
+
+.Degree_title {
+    color: var(--bs-bluesdark);
+}
+.college_name{
+    color: var(--bs-gray-700);
+}
+.Year_pass{
+    color: var(--bs-trasparentblur);
+}
+
+.Exp_title h1{
+    color: var(--bs-bluesdark);
+}
+
+.About_title h1{
+    color: var(--bs-gray-800);
+}
