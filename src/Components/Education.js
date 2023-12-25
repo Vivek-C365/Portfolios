@@ -14,6 +14,22 @@ export default function Education() {
                 My Education
             </h1>
         </div>
+    <div className="outter_edit">
+
+        <div className="education_innercontent">
+            <div className="school">
+
+            <div className="school_img">
+                <img className='img_school' src={university} alt="" />
+            </div>
+            <div className="scholl_detail">
+                <h1 className='Degree_title'> Masters Of Computer Application</h1>
+                <h5 className='college_name'> Punjabi University Patiala</h5>
+                <h3 className='Year_pass'>2022 - 2024</h3>
+            </div>
+            </div>
+        </div>
+        </div>
         <div className="outter_edit">
 
         <div className="education_innercontent">
@@ -31,22 +47,7 @@ export default function Education() {
         </div>
         </div>
 
-        <div className="outter_edit">
-
-        <div className="education_innercontent">
-            <div className="school">
-
-            <div className="school_img">
-                <img className='img_school' src={university} alt="" />
-            </div>
-            <div className="scholl_detail">
-                <h1 className='Degree_title'> Masters Of Computer Application</h1>
-                <h5 className='college_name'> Punjabi University Patiala</h5>
-                <h3 className='Year_pass'>2022 - 2024</h3>
-            </div>
-            </div>
-        </div>
-        </div>
+        
     </section>
 
     
